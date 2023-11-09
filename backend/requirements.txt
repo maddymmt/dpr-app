@@ -1,7 +1,10 @@
-fastapi
-requests
-uvicorn
-pymongo
-numpy
-torch --index-url https://download.pytorch.org/whl/cpu
-python-dotenv
+# fastapi
+# requests
+# uvicorn
+# pymongo
+# numpy
+# torch --index-url https://download.pytorch.org/whl/cpu
+# python-dotenv
+ipykernel
+# python-multipart
+farm-haystack
