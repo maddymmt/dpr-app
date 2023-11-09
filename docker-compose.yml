@@ -1,0 +1,18 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    env_file:
+      - ./backend/.env
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        HTTP_PROXY:
+        HTTPS_PROXY: 
+    env_file:
+      - ./frontend/.env
+  files-db:
+    image: mongo

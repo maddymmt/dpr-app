@@ -1,0 +1,12 @@
+services:
+  backend:
+    ports:
+      - "8887:1234"
+    
+  files-db:
+    ports:
+      - "8888:27017"
+  
+  frontend:
+    ports:
+      - "8889:1235"
