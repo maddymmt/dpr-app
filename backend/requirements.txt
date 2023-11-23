@@ -1,10 +1,14 @@
-# fastapi
+fastapi
 # requests
-# uvicorn
+uvicorn
 # pymongo
 # numpy
-# torch --index-url https://download.pytorch.org/whl/cpu
-# python-dotenv
+python-dotenv
 ipykernel
-# python-multipart
+python-multipart
 farm-haystack
+torch==2.1.0+cu121
+motor
+pydantic
+python-jose[cryptography]
+passlib[bcrypt]
